@@ -1,0 +1,32 @@
+{
+  "name": "whistle-it-down",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node node_modules/ts-node/dist/bin.js src/run.ts --now",
+    "build": "node node_modules/typescript/bin/tsc",
+    "start": "node dist/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "node-cron": "^4.2.1",
+    "openai": "^6.22.0",
+    "p-limit": "^7.3.0",
+    "playwright": "^1.58.2",
+    "rss-parser": "^3.13.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "cross-env": "^10.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
